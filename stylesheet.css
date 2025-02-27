@@ -9,3 +9,49 @@ head {
 	font-family: Georgia, 'Times New Roman', Times, serif;
 	
 }
+
+body {
+	background-color: #f0d7bb;
+	text-align: left;
+	font-size: large;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-weight: bolder;
+
+}
+.button {
+	text-align: center;
+	display: inline;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	text-align: center ;
+}
+
+.button1 {background-color: rgb(147, 128, 148); border-radius: 12px;}
+.button2 {background-color: snow; border-radius: 12px;}
+.button3 {background-color: #8f7255; border-radius: 12px;}
+
+.a{
+	background-color: tan;
+	text-align: center;
+}
+
+h1{
+	color: tan;
+	background-color: snow;
+	text-align: center;
+	font-size: xx-large;
+}
+
+p{
+	color:aliceblue;
+	background-color: rgb(97, 56, 6);
+}
+a:hover{
+	color: maroon;
+}
+img{
+	width: 50%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+
+}

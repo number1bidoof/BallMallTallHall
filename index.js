@@ -1,11 +1,15 @@
-// Varabiles 
-TextBlock1 = document.getElementById("para1")
-TextBlock2 = document.getElementById("para2")
-UsePut = document.getElementById("userInput")
-FirstButton = document.getElementById('unoButton')
-SecondButton = document.getElementById('dosButton')
+// varibles 
+const TextBlock1 = document.getElementById("text1");
+const TextBlock2 = document.getElementById("para");
+const UsePut = document.getElementById("userInput");
+const FirstButton = document.getElementById('unoButton');
+const SecondButton = document.getElementById('dosButton');
+const SecretButton = document.getElementById("secretButton");
+const CurrentImg = document.getElementById("simage")
 
-function testing(usr,topic) {
-
+function introduction(){
+    TextBlock1.textContent = "Hello User, Welcome to the intergalatic Olympics!"
+    TextBlock2.textContent = "please work"
 }
 
+introduction()
