@@ -3,21 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel = "stylesheet" href="stylesheet.css">
-    <script src="index.js"></script>
+    <title>Escape from the Death Star</title>
     <link rel="stylesheet" href="stylesheet.css">
-    <title>Landing Page</title>
 </head>
 <body>
-<table>
-    <h1>Hello Space Cowboy! Welcome to the Intergalatic Olypmics</h1>
-    <img id = simage src="\Images\Cat1.jpg">
-    <p id="para"></p>
-    <p id = "text1"></p>
-    <label for="input">Please enter your name</label><br>
-    <input type="text" id="userInput"><br>
-    <button type="submit" id="button1">Enter</button>
+    <!-- start screen -->
+    <div id="start-screen">   
+        <h1>Welcome to the Intergalatic Olympics</h1>
+        <p>You will compete in several events in both sports of the body and mind</p>
+        <p>These include both questions and writen questions</p>
+        <input type="text" id="player-name" placeholder="Enter your name">
+        <button id="start-button">Start Game</button>
+    </div>
+    <!-- This is the game container that contains the elements of the scenes -->
+    <div id="game-container" style="display: none;">   
+        <div id="display-name"></div>
+        <h1>Escape from the Death Star</h1>
+        <p id="story-text"></p>
+        <img id="story-image" src="Cats in Space.jpg" alt="Riveter">
+        <div id="choices">
+            <button id="choice1"></button>
+            <button id="choice2"></button>
+        </div>
+    </div>
 
-</table>
+    <div id="tooltip" style="display: none;"></div>
+    <!-- links the Javascript file that basically runs the game -->
+    <script src="index.js"></script>
 </body>
 </html>

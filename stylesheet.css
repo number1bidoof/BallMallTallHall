@@ -1,3 +1,4 @@
+
 /* 
 This is the first css file, there are 2 in total
 background color = #f0d7bb
@@ -5,13 +6,14 @@ acent color = #211305
 text color = Snow/Tan
 */
 head {
-	background-color:#f0d7bb;
+	background-color:#637db6;
 	font-family: Georgia, 'Times New Roman', Times, serif;
 	
 }
 
 body {
-	background-color: #f0d7bb;
+	background-color: #6547cf;
+	color: #000;
 	text-align: left;
 	font-size: large;
 	font-family: Georgia, 'Times New Roman', Times, serif;
@@ -19,32 +21,31 @@ body {
 
 }
 .button {
+	color: #6547cf;
 	text-align: center;
 	display: inline;
 	font-family: Georgia, 'Times New Roman', Times, serif;
 	text-align: center ;
 }
 
-.button1 {background-color: rgb(147, 128, 148); border-radius: 12px;}
-.button2 {background-color: snow; border-radius: 12px;}
-.button3 {background-color: #8f7255; border-radius: 12px;}
+
 
 .a{
-	background-color: tan;
+	background-color: rgb(255, 254, 253);
 	text-align: center;
 }
 
 h1{
-	color: tan;
-	background-color: snow;
+	color: aliceblue;
+	background-color: rgb(110, 88, 207);
 	text-align: center;
 	font-size: xx-large;
 }
 
 p{
 	color:aliceblue;
-	background-color: rgb(97, 56, 6);
 }
+
 a:hover{
 	color: maroon;
 }
